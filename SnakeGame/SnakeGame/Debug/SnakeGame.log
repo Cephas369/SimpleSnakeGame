@@ -1,0 +1,5 @@
+﻿  game.cpp
+C:\Users\Pedrinho\source\repos\SnakeGame\SnakeGame\game.cpp(105,12): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+C:\Users\Pedrinho\source\repos\SnakeGame\SnakeGame\game.cpp(121,28): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Pedrinho\source\repos\SnakeGame\SnakeGame\game.cpp(166): warning C4717: 'main': recursivo em todos os caminhos de controle, função causará estouro na pilha em tempo de execução
+  SnakeGame.vcxproj -> C:\Users\Pedrinho\source\repos\SnakeGame\Debug\SnakeGame.exe
