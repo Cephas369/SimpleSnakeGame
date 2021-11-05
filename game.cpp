@@ -140,7 +140,11 @@ void Game()
 	else if (lost == 2)
 		cout << "You fell into the void!" << endl;
 	if (snake.size() >= map[0] * map[1])
+	{
 		cout << "You win!" << endl;
+		lost = 4;
+	}
+		
 
 	cout << "Press R to restart the game..." << endl;
 }
