@@ -133,12 +133,14 @@ void Game()
 		PrintGame(map, snake, food);
 		Sleep(50);
 		cout << "Size: " << snake.size() - 1 << endl;
-	} while (lost == 0);
+	} while (lost == 0 || snake.size() < map[0] * map[1]);
 
 	if (lost == 1)
 		cout << "You bite yourself!" << endl;
 	else if (lost == 2)
 		cout << "You fell into the void!" << endl;
+	if (snake.size() >= map[0] * map[1])
+		cout << "You win!" << endl;
 
 	cout << "Press R to restart the game..." << endl;
 }
